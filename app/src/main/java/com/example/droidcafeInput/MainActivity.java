@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.droidcafeinput.extra.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
